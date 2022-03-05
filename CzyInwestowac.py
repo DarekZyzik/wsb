@@ -1,11 +1,5 @@
 def can_invest (plec, wiek, poziomzdolnosci):
-    if wiek<18 or poziomzdolnosci<50:
+    if wiek<18 or poziomzdolnosci== "Don't even try, beggar":
         return print ("nie mozesz inwestowac")
-    if wiek>18 and poziomzdolnosci >60:
-        return print("zainwestuj w zloto")
-    elif wiek>18 and poziomzdolnosci>70:
-        return print ("zainwestuj w papiery wartosciowe")
-    elif wiek > 18 and poziomzdolnosci > 80:
-        return print("zainwestuj na giełdzie")
-    elif wiek > 18 and poziomzdolnosci > 50:
-        return print("kup dom")
+    if wiek>18 and( poziomzdolnosci== "Invest in gold" or poziomzdolnosci== "Invest in diamonds"  or poziomzdolnosci== "Invest in palacyki" ):
+        return print("inwestuj")

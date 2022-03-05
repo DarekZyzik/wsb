@@ -1,6 +1,6 @@
-def przeliczenie(a,b,USD):
+def przeliczenie():
 
     a = float(input('podaj ilosc PLN:    '))
     b = float(input('podaj kurs USD:    '))
-    USD = a*b
-    print(f"Wartosc w USD:  ",c)
+    usd = a*b
+    return usd
